@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-family: sans-serif;
+  /* background: #260701; */
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  height: 610px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem auto;
+  /* background-color: blue; */
+}
+.kotak {
+  width: 100%;
+  max-width: 250px;
+  height: 250px;
+  border: 1px solid rgba(207, 204, 204, 0.3);
+  margin: 0;
+  position: relative;
+  /* background: linear-gradient(120deg, #260701, #2f0e07, #38160d, #411d13, #4a2419, #532c1e); */
+  background: #260701;
+  /* border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px; */
+}
+.garis1 {
+  width: 145px;
+  height: 145px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  position: absolute;
+  top: 1.2rem;
+  left: 5.5rem;
+  border: 3px solid #b69121;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  box-shadow: 0px 0px 10px white;
+}
+img.bunga {
+  position: absolute;
+  top: 2.5rem;
+  left: 6rem;
+  width: 120px;
+  height: 120px;
+}
+.bunga2 img {
+  position: absolute;
+  top: 40px;
+  width: 200px;
+  height: 200px;
+}
+.bunga3 img {
+  position: absolute;
+  left: 15px;
+  width: 60px;
+  height: 60px;
+}
