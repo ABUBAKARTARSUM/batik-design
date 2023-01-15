@@ -55,8 +55,8 @@ body {
 }
 img.bunga {
   position: absolute;
-  top: 2.5rem;
-  left: 6rem;
+  top: 2.1rem;
+  left: 6.3rem;
   width: 120px;
   height: 120px;
 }
@@ -69,6 +69,6 @@ img.bunga {
 .bunga3 img {
   position: absolute;
   left: 15px;
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
 }
